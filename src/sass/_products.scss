@@ -36,6 +36,15 @@
   color: $primary-white-color;
   margin-bottom: 62px;
 }
+.products-item {
+  background-color: $pink-menu-color;
+}
+.products .products-item:nth-child(2) {
+  background-color: #f0d1a5;
+}
+.products .products-item:nth-child(3) {
+  background-color: #c2e297;
+}
 
 .products-img {
   width: 100%;
@@ -170,7 +179,6 @@
 
   .products-item {
     width: 335px;
-    background: $pink-menu-color;
     border-radius: 24px;
     padding-top: 163px;
     padding-bottom: 50px;
